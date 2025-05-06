@@ -63,7 +63,7 @@ on:
 env:
   PAT: ${{ secrets.PAT }}
   CLOUDBEES_API_URL: ${{ cloudbees.api.url }}
-  workflowId: "a735c48e-b4bc-44e8-bb78-505b61daf915"
+  workflowId: "4de0b3c3-382a-40cf-88e5-f029d6ce194c"
 
 jobs:
   setup:
