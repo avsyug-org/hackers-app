@@ -25,7 +25,7 @@ jobs:
       - name: Update manifest file with environment
         with:
           base-manifest: ${{ needs.setup.outputs.base-manifest }}
-          environment: BugleTest
+          environment: bugletest
           file: manifest.yaml
         uses: gmaxey/create-manifest-file
       - name: deploy
@@ -47,7 +47,7 @@ jobs:
       - name: Update manifest file with environment
         with:
           base-manifest: ${{ needs.setup.outputs.base-manifest }}
-          environment: BugleProd
+          environment: bugleprod
           file: manifest.yaml
         uses: gmaxey/create-manifest-file
       - name: deploy
